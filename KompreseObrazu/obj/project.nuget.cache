@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "4s4jVFStWf3jpyMvkOio+CHvNqJdt16n4c9KbnDVWZUCh9OaB5c/UKoRQWG3DKmntMFRjbKOKHHm0CiN+GUwBQ==",
+  "dgSpecHash": "LCnxNbPVkHiPDFxFMUeyK56TJc0FEBi2mPLvRHJYsWrVQnlPOMQrLesICOPJWBYwUSL471cr4gg0geXS+TM2dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MartinKapcala\\OneDrive - Vítkovická střední průmyslová škola\\Dokumenty\\Programování\\PG\\Komprese-obrazu\\KompreseObrazu\\KompreseObrazu.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "projectFilePath": "C:\\Users\\DanielDubnický\\github-classroom\\Vitkovicka-stredni-prumyslova-skola\\cv-komprese-obrazu-v2-DanielDubnicky\\KompreseObrazu\\KompreseObrazu.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DanielDubnický\\.nuget\\packages\\messagingtoolkit.qrcode\\1.3.0\\messagingtoolkit.qrcode.1.3.0.nupkg.sha512",
+    "C:\\Users\\DanielDubnický\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\DanielDubnický\\.nuget\\packages\\system.drawing.common\\8.0.2\\system.drawing.common.8.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Balíček MessagingToolkit.QRCode 1.3.0 se místo cílové verze rozhraní .NET Framework projektu net7.0 obnovil pomocí .NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1. Balíček nemusí být plně kompatibilní s vaším projektem.",
+      "libraryId": "MessagingToolkit.QRCode",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

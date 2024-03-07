@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MartinKapcala\\OneDrive - Vítkovická střední průmyslová škola\\Dokumenty\\Programování\\PG\\Komprese-obrazu\\KompreseObrazu\\KompreseObrazu.csproj": {}
+    "C:\\Users\\DanielDubnický\\github-classroom\\Vitkovicka-stredni-prumyslova-skola\\cv-komprese-obrazu-v2-DanielDubnicky\\KompreseObrazu\\KompreseObrazu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MartinKapcala\\OneDrive - Vítkovická střední průmyslová škola\\Dokumenty\\Programování\\PG\\Komprese-obrazu\\KompreseObrazu\\KompreseObrazu.csproj": {
+    "C:\\Users\\DanielDubnický\\github-classroom\\Vitkovicka-stredni-prumyslova-skola\\cv-komprese-obrazu-v2-DanielDubnicky\\KompreseObrazu\\KompreseObrazu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MartinKapcala\\OneDrive - Vítkovická střední průmyslová škola\\Dokumenty\\Programování\\PG\\Komprese-obrazu\\KompreseObrazu\\KompreseObrazu.csproj",
+        "projectUniqueName": "C:\\Users\\DanielDubnický\\github-classroom\\Vitkovicka-stredni-prumyslova-skola\\cv-komprese-obrazu-v2-DanielDubnicky\\KompreseObrazu\\KompreseObrazu.csproj",
         "projectName": "KompreseObrazu",
-        "projectPath": "C:\\Users\\MartinKapcala\\OneDrive - Vítkovická střední průmyslová škola\\Dokumenty\\Programování\\PG\\Komprese-obrazu\\KompreseObrazu\\KompreseObrazu.csproj",
-        "packagesPath": "C:\\Users\\MartinKapcala\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MartinKapcala\\OneDrive - Vítkovická střední průmyslová škola\\Dokumenty\\Programování\\PG\\Komprese-obrazu\\KompreseObrazu\\obj\\",
+        "projectPath": "C:\\Users\\DanielDubnický\\github-classroom\\Vitkovicka-stredni-prumyslova-skola\\cv-komprese-obrazu-v2-DanielDubnicky\\KompreseObrazu\\KompreseObrazu.csproj",
+        "packagesPath": "C:\\Users\\DanielDubnický\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DanielDubnický\\github-classroom\\Vitkovicka-stredni-prumyslova-skola\\cv-komprese-obrazu-v2-DanielDubnicky\\KompreseObrazu\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MartinKapcala\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DanielDubnický\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -37,6 +37,16 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MessagingToolkit.QRCode": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -53,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
